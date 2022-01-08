@@ -1,0 +1,164 @@
+// Заголовки, общие БЄМ блоки и проче...
+.__container {
+	max-width: 856px;
+}
+
+.title {
+	font-weight: bold;
+	font-size: rem(30);
+	line-height: math.div(44, 30);
+
+}
+
+.text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: math.div(23, 16);
+}
+
+
+
+.btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0px 20px;
+	font-size: 20px;
+	line-height: math.div(29, 20);
+	background: #FF6464;
+	border-radius: 2px;
+	height: 47px;
+	color: #fff;
+
+	@media(min-width: 992px) {
+		&:hover {
+			background: #d60e0e;
+		}
+	}
+}
+
+.works{
+	&__column {
+		margin: 0px 0px 66px 0px;
+		
+	}
+
+	// .featured-works__item
+
+	&__item {
+		display: flex;
+
+		@media (max-width: 768px) {
+			flex-direction: column;
+		}
+	}
+
+	&__img {
+		display: block;
+		flex: 0 0 248px;
+		min-height: 180px;
+		border-radius: 6px;
+		overflow: hidden;
+		 @media (max-width: 768px) {
+			
+			 padding: 0px 0px 60% 0px;
+		margin: 0px 0px 17px 0px;
+		}
+	}
+
+	// .featured-works__content
+
+	&__content {
+		flex: 0 1 auto;
+		margin: 0px 0px 0px 18px;
+	}
+
+	// .featured-works__subtitle
+
+	&__subtitle {
+		display: block;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: math.div(30, 30);
+		margin: 0px 0px 20px 0px;
+		@media (max-width: 768px){
+			  font-size: 24px;
+		}
+	}
+
+	// .featured-works__info
+
+	&__info {
+		margin: 0px 0px 20px 0px;
+	}
+
+	// .featured-works__year
+
+	&__year {
+		display: inline-block;
+		font-weight: 900;
+		font-size: 18px;
+		line-height: math.div(30, 18);
+		background: #142850;
+		border-radius: 16px;
+		color: #fff;
+		padding: 0px 10px;
+	}
+
+	// .featured-works__descr
+
+	&__descr {
+		margin: 0px 0px 0px 25px;
+		display: inline-block;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: math.div(29, 20);
+		color: #8695A4;
+
+	}
+
+	// .featured-works__text
+
+	&__text {}
+}
+
+//========================================================================================================================================================
+
+.footer {
+	padding: 56px 0px;
+
+	// .footer__container
+
+	&__container {
+		margin: 0px -17px;
+	}
+
+	// .footer__socialy
+
+	&__socialy {
+		text-align: center;
+		margin: 0px 0px 26px 0px;
+	}
+
+	// .footer__link
+
+	&__link {
+		display: inline-block;
+		padding: 0px 17px 0px 17px;
+		img{
+			width: 30px;
+			height: 30px;
+		}
+		
+	}
+
+	// .footer__copyright
+
+	&__copyright {
+		text-align: center;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: math.div(21, 14);
+	}
+}

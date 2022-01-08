@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Home page"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<section class="hello">
+				<div class="hello__container __container">
+					<div class="hello__wrapper">
+						<div class="hello__block">
+							<h1 class="hello__title title">Hi, I am John,<br>Creative Technologist</h1>
+							<div class="hello__text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+								sint. Velit
+								officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+							<a href="#" class="hello__btn btn">Download Resume</a>
+						</div>
+						<img class="hello__image" src="@img/John.jpg" alt="John">
+					</div>
+				</div>
+			</section>
+			<section class="recent-posts">
+				<div class="recent-posts__container __container">
+					<div class="recent-posts__header">
+						<div class="recent-posts__title">Recent posts</div>
+						<a href="#" class="recent-posts__view-all">View all</a>
+					</div>
+					<div class="recent-posts__wrapper">
+						<div class="recent-posts__colum">
+							<div class="recent-posts__item">
+								<a href="#" class="recent-posts__subtitle title">Making a design system from scratch</a>
+								<div class="recent-posts__info">12 Feb 2020 <span>|</span> Design, Pattern </div>
+								<div class="recent-posts__text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+									do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+									sunt nostrud amet.</div>
+							</div>
+						</div>
+						<div class="recent-posts__colum">
+							<div class="recent-posts__item">
+								<a href="#" class="recent-posts__subtitle title">Making a design system from scratch</a>
+								<div class="recent-posts__info">12 Feb 2020 <span>|</span> Design, Pattern </div>
+								<div class="recent-posts__text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+									do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+									sunt nostrud amet.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="featured-works">
+				<div class="featured-works__container __container">
+					<div class="featured-works__title">Featured works</div>
+					<div class="featured-works__wrapper works">
+						<div class="works__column">
+							<div class="works__item">
+								<a href="" class="works__img -ibg"><img class="" src="@img/Work/01.jpg" alt="01"></a>
+								<div class="works__content">
+									<a href="" class="works__subtitle">Designing Dashboards</a>
+									<div class="works__info">
+										<div class="works__year">2020</div>
+										<div class="works__descr">Dashboard</div>
+									</div>
+									<div class="works__text text">Amet minim mollit non deserunt ullamco est sit aliqua
+										dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+										consequat sunt nostrud amet.</div>
+								</div>
+							</div>
+						</div>
+						<div class="works__column">
+							<div class="works__item">
+								<a href="" class="works__img -ibg"><img class="" src="@img/Work/02.jpg" alt="02"></a>
+								<div class="works__content">
+									<a href="" class="works__subtitle">Vibrant Portraits of 2020</a>
+									<div class="works__info">
+										<div class="works__year">2018</div>
+										<div class="works__descr">Dashboard</div>
+									</div>
+									<div class="works__text text">Amet minim mollit non deserunt ullamco est sit aliqua
+										dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+										consequat sunt nostrud amet.</div>
+								</div>
+							</div>
+						</div>
+						<div class="works__column">
+							<div class="works__item">
+								<a href="" class="works__img -ibg"><img class="" src="@img/Work/03.jpg" alt="03"></a>
+								<div class="works__content">
+									<a href="" class="works__subtitle">36 Days of Malayalam type</a>
+									<div class="works__info">
+										<div class="works__year">2018</div>
+										<div class="works__descr">Dashboard</div>
+									</div>
+									<div class="works__text text">Amet minim mollit non deserunt ullamco est sit aliqua
+										dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+										consequat sunt nostrud amet.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+			</section>
+
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
